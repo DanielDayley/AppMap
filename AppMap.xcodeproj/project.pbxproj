@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64A3EAB21AF95A5A0086BE4D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A3EAB11AF95A5A0086BE4D /* ThirdViewController.m */; };
+		64A3EAB51AF95A670086BE4D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A3EAB41AF95A670086BE4D /* FourthViewController.m */; };
+		64A3EAB81AF95A770086BE4D /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A3EAB71AF95A770086BE4D /* FifthViewController.m */; };
 		71CA534219DCA6B700F1638C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA534119DCA6B700F1638C /* main.m */; };
 		71CA534519DCA6B700F1638C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA534419DCA6B700F1638C /* AppDelegate.m */; };
 		71CA534819DCA6B700F1638C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA534719DCA6B700F1638C /* FirstViewController.m */; };
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64A3EAB01AF95A5A0086BE4D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		64A3EAB11AF95A5A0086BE4D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		64A3EAB31AF95A670086BE4D /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		64A3EAB41AF95A670086BE4D /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		64A3EAB61AF95A770086BE4D /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		64A3EAB71AF95A770086BE4D /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		71CA533C19DCA6B700F1638C /* AppMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA534019DCA6B700F1638C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71CA534119DCA6B700F1638C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +99,12 @@
 				71CA534719DCA6B700F1638C /* FirstViewController.m */,
 				71CA534919DCA6B700F1638C /* SecondViewController.h */,
 				71CA534A19DCA6B700F1638C /* SecondViewController.m */,
+				64A3EAB01AF95A5A0086BE4D /* ThirdViewController.h */,
+				64A3EAB11AF95A5A0086BE4D /* ThirdViewController.m */,
+				64A3EAB31AF95A670086BE4D /* FourthViewController.h */,
+				64A3EAB41AF95A670086BE4D /* FourthViewController.m */,
+				64A3EAB61AF95A770086BE4D /* FifthViewController.h */,
+				64A3EAB71AF95A770086BE4D /* FifthViewController.m */,
 				71CA534C19DCA6B700F1638C /* Main.storyboard */,
 				71CA534F19DCA6B700F1638C /* Images.xcassets */,
 				71CA535119DCA6B700F1638C /* LaunchScreen.xib */,
@@ -224,9 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A3EAB51AF95A670086BE4D /* FourthViewController.m in Sources */,
 				71CA534B19DCA6B700F1638C /* SecondViewController.m in Sources */,
+				64A3EAB21AF95A5A0086BE4D /* ThirdViewController.m in Sources */,
 				71CA534519DCA6B700F1638C /* AppDelegate.m in Sources */,
 				71CA534819DCA6B700F1638C /* FirstViewController.m in Sources */,
+				64A3EAB81AF95A770086BE4D /* FifthViewController.m in Sources */,
 				71CA534219DCA6B700F1638C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +436,7 @@
 				71CA536419DCA6B700F1638C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71CA536519DCA6B700F1638C /* Build configuration list for PBXNativeTarget "AppMapTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +445,7 @@
 				71CA536719DCA6B700F1638C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
